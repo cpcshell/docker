@@ -4,3 +4,4 @@ RUN git clone https://github.com/cpcshell/cpc
 WORKDIR /cpc 
 RUN make 
 RUN cp ./cpcldr ./Sysroot/
+CMD ["./Sysroot/cpcldr"]
